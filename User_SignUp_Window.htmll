@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>User Sign Up </title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+
+    <body>
+        <div class = "sign-up-form">
+            <img src="user.png">
+            <h1>User Sign Up </h1>
+            <form>
+                <input type="Enrollment Number" class="input-box" placeholder="Enter Enrollment Number" >
+                <input type="Password" class="input-box"  placeholder="Enter password" id="password" >
+                <input type="Password" class="input-box"  placeholder="Confirm password" id="confirm_password" >
+               
+                <input type="Enter Email" class="input-box" placeholder="Enter Email" >
+                <p><span><input type= "checkbox"></span> I agree to the terms of services</p>
+                <button type = "button" onclick="alert('Registration Completed')" class="signup-btn ">Sign Up</button>
+            </form>
+            
+        </div>
+    </body>
+</html>
